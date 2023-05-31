@@ -1,0 +1,289 @@
+#main {
+    width: 250px;
+    height: 430px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    background-image: linear-gradient(90deg, #0f354f, #5495e3);
+    border-radius: 14px;
+}
+#logo {
+    width: 220px;
+    height: 59px;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#logo_img {
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#controls {
+    width: 220px;
+    height: 140px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#registration_control {
+    width: 232px;
+    height: 39px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    background-image: linear-gradient(219deg, #5191dd, #003151);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #041830;
+}
+#reg_status {
+    margin: 4px 4px 4px 4px;
+    width: 134px;
+    height: 24px;
+    text-align: left;
+    position: absolute;
+    top: 2px;
+    padding: 0px 0px 0px 4px;
+    left: 0px;
+    border: 1px solid #2a4a6f;
+    background: #7691b1;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 3px;
+    color: #e0e0e0;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+}
+#register {
+    position: absolute;
+    left: 148px;
+    top: 0px;
+}
+#unregister {
+    position: absolute;
+    left: 190px;
+    top: 0px;
+}
+.button {
+    margin-top: 4px;
+    margin-left: 1px;
+    margin-right: 0px;
+    min-width: 30px;
+    height: 30px;
+    border: 1px solid #041830;
+    background: -webkit-gradient(linear, left top, left bottom, from(#195397), to(#002d34));
+    border-radius: 3px;
+    text-shadow: #122e4f 0 1px 0;
+    color: #e0e0e0;
+    font-size: 16px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#dial_control {
+    width: 232px;
+    height: 39px;
+    position: absolute;
+    left: 8px;
+    top: 53px;
+    background-image: linear-gradient(219deg, #5191dd, #003151);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #041830;
+}
+#digits {
+    margin: 4px 4px 4px 4px;
+    width: 176px;
+    height: 26px;
+    text-align: left;
+    border: 1px solid #2a4a6f;
+    background: #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 7px;
+    border-radius: 3px;
+    color: #2a4a6f;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+}
+#dial {
+    position: absolute;
+    left: 190px;
+    top: 0px;
+}
+#audio_control {
+    width: 232px;
+    height: 39px;
+    position: absolute;
+    left: 8px;
+    top: 99px;
+    background-image: linear-gradient(219deg, #5191dd, #003151);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #041830;
+}
+#mic_mute {
+    position: absolute;
+    left: 3px;
+    top: 0px;
+}
+#vol_up {
+    position: absolute;
+    left: 45px;
+    top: 0px;
+}
+#vol_down {
+    position: absolute;
+    left: 87px;
+    top: 0px;
+}
+#dialpad {
+    width: 232px;
+    height: 213px;
+    background-image: none;
+    position: absolute;
+    top: 207px;
+    left: 9px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.dialpad_button {
+    min-width: 60px;
+    height: 36px;
+    border: 1px solid #041830;
+    background: -webkit-gradient(linear, left top, left bottom, from(#185191), to(#012934));
+    border-radius: 3px;
+    text-shadow: #122e4f 0 1px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#dial_row1 {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 122px;
+}
+#one {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+#two {
+    position: absolute;
+    top: 0px;
+    left: 79px;
+}
+#three {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+#dial_row2 {
+    position: absolute;
+    top: 49px;
+    left: 7px;
+    width: 122px;
+}
+#four {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+#five {
+    position: absolute;
+    top: 0px;
+    left: 79px;
+}
+#six {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+#dial_row3 {
+    position: absolute;
+    top: 91px;
+    left: 7px;
+    width: 122px;
+}
+#seven {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+#eight {
+    position: absolute;
+    top: 0px;
+    left: 79px;
+}
+#nine {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+#dial_row4 {
+    position: absolute;
+    top: 133px;
+    left: 7px;
+    width: 122px;
+}
+#star {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+#zero {
+    position: absolute;
+    top: 0px;
+    left: 79px;
+}
+#pound {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+#dial_dtmf {
+    position: absolute;
+    top: 178px;
+    left: 7px;
+}
+#dial_dtmf button {
+    margin: 0px 0px 0px 154px;
+}
+#dtmf_digits {
+    position: absolute;
+    top: 0px;
+    left: 8px;
+    width: 129px;
+    height: 26px;
+    text-align: left;
+    border: 1px solid #2a4a6f;
+    background: #ffffff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 3px;
+    color: #2a4a6f;
+    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+}
+
