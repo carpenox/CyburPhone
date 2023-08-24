@@ -29,7 +29,7 @@
 
 
 	// call the template
-	require_once('vp_template.php');
+	require_once('cp_template.php');
 		
 	function get_post( $string, $variable ) {
 		if (isset($_GET[$string])) {
