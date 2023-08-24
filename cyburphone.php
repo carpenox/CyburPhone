@@ -48,7 +48,7 @@ $options =                  base64_decode($options);
 
 // Encryption check
 // Get remote address
-$referring_url = "https://viciphone.com";
+$referring_url = "https://dialer.one";
 if (!empty($_SERVER['HTTP_REFERER'])) {
 	$referring_url = $_SERVER['HTTP_REFERER'];
 }
@@ -77,7 +77,7 @@ $log_string .= "\n";
 
 if ( $debug_access_log ) {
 	// log it
-	file_put_contents( "debug/viciphone_access.log",$log_string,FILE_APPEND );
+	file_put_contents( "debug/cyburphone_access.log",$log_string,FILE_APPEND );
 }
 
 // Encryption Check
@@ -85,7 +85,7 @@ if ( $ref_url_array['scheme'] != 'https' ) {
         // Remote address is not https
         // Throw and Alert and exit
         echo "<script language='javascript'>";
-        echo "alert('Referring URL ( $base_referring_url ) is not encrypted. VICIphone cannot load without encryption. Please make sure you are using the correct URL.')";
+        echo "alert('Referring URL ( $base_referring_url ) is not encrypted. Cyburphone cannot load without encryption. Please make sure you are using the correct URL.')";
         echo "</script>";
         exit;
 }
@@ -243,5 +243,5 @@ foreach( $settings_array as $line ) {
 
 
 // call the template
-require_once('vp_template.php');
+require_once('cp_template.php');
 ?>
