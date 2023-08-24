@@ -23,7 +23,7 @@
 -->
 <html manifest="viciphone.appcache">
 	<head>
-		<title>Vicidial Web Phone</title>
+		<title>CyburPhone</title>
 		<link rel="stylesheet" href="<?php echo $layout; ?>" />
 		<meta http-equiv="Pragma" content="no-cache">
 		<meta http-equiv="Expires" content="-1">
@@ -164,7 +164,7 @@
 		<script  type="text/javascript" src="js/sip.js"></script>
 
 		<!-- Our Java Script Code -->
-		<script  type="text/javascript" src="js/vici_phone.js"></script>
+		<script  type="text/javascript" src="js/cybur_phone.js"></script>
 
 	</body>
 </html>
