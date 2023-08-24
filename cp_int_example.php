@@ -1,5 +1,5 @@
 <?php
-	// set the VICIphone variables
+	// set the Cyburphone variables
 	$layout = "default.css";
 	$cid_name = "100";
 	$sip_uri = "100@192.168.0.100";
@@ -14,5 +14,5 @@
 	$auto_answer= "true";
 	
 	// call the template
-	require_once('vp_template.php');
+	require_once('cp_template.php');
 ?>
