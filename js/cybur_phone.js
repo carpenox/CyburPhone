@@ -141,7 +141,7 @@ var myUserAgentConfig = {
 		server: ws_server,
 	},
 	uri: myRegUri,
-	userAgentString: 'VICIphone 3.0.0',
+	userAgentString: 'CyburPhone 3.2.5',
 };
 
 var lang = {
