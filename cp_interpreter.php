@@ -1,5 +1,5 @@
 <?php
-	// default VICIphone variables
+	// default Cyburphone variables
 	$layout = "css/default.css";
 	$cid_name = "100";
 	$sip_uri = "100@192.168.0.100";
