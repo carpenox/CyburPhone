@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+MO<!DOCTYPE html>
 <!--
 *******************************************************************************
 *
@@ -69,17 +69,17 @@ I'm						<button class="button" id="unregister"><img id="unreg_icon" src="images
 					<section id="dial_row1">
 					<button class="dialpad_button" id="one">1</button>
 					<button class="dialpad_button" id="two">2 abc</button>
-					<button class="dialpad_button" id="three">3</button>
+					<button class="dialpad_button" id="three">3 def</button>
 					</section>
 					<section id="dial_row2">
-					<button class="dialpad_button" id="four">4</button>
-					<button class="dialpad_button" id="five">5</button>
-					<button class="dialpad_button" id="six">6</button>
+					<button class="dialpad_button" id="four">4 ghi</button>
+					<button class="dialpad_button" id="five">5 jkl</button>
+					<button class="dialpad_button" id="six">6 mnop</button>
 					</section>
 					<section id="dial_row3">
-					<button class="dialpad_button" id="seven">7</button>
-					<button class="dialpad_button" id="eight">8</button>
-					<button class="dialpad_button" id="nine">9</button>
+					<button class="dialpad_button" id="seven">7 qrs</button>
+					<button class="dialpad_button" id="eight">8 tuv</button>
+					<button class="dialpad_button" id="nine">9 wxyz</button>
 					</section>
 					<section id="dial_row4">
 					<button class="dialpad_button" id="star">*</button>
