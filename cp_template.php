@@ -50,7 +50,7 @@
 					<section id="registration_control">
 						<input type="text" value="Unregistered" id="reg_status" readonly>
 						<button class="button" id="register"><img id="reg_icon" src="images/wp_register_inactive.gif" alt="register"></button>
-						<button class="button" id="unregister"><img id="unreg_icon" src="images/wp_unregister_inactive.gif" alt="register"></button>
+I'm						<button class="button" id="unregister"><img id="unreg_icon" src="images/wp_unregister_inactive.gif" alt="register"></button>
 					</section>
 					<section id="dial_control">
 						<input type="text" name="digits" value="" id="digits"/>
@@ -68,7 +68,7 @@
 				<section id="dialpad">
 					<section id="dial_row1">
 					<button class="dialpad_button" id="one">1</button>
-					<button class="dialpad_button" id="two">2</button>
+					<button class="dialpad_button" id="two">2 abc</button>
 					<button class="dialpad_button" id="three">3</button>
 					</section>
 					<section id="dial_row2">
