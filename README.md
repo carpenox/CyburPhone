@@ -3,7 +3,9 @@ To install on your server for the following commands after changing to your web 
 git clone https://github.com/carpenox/CyburPhone-3.0.git
 
 mv CyburPhone-3.0 CyburPhone
+
 chmod -R 744 CyburPhone
+
 chown -R apache:apache CyburPhone
 
 # CyburPhone-3.2.5
