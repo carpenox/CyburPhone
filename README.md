@@ -3,9 +3,7 @@ https://demo.dialer.one/CyburPhone-3.0/cyburphone.php
 
 To install on your server for the following commands after changing to your web directory:
 
-git clone https://github.com/carpenox/CyburPhone-3.0.git
-
-mv CyburPhone-3.0 CyburPhone
+git clone https://github.com/carpenox/CyburPhone.git
 
 chmod -R 744 CyburPhone
 
