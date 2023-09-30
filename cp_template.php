@@ -21,7 +21,7 @@
 *
 *******************************************************************************
 -->
-<html manifest="viciphone.appcache">
+<html manifest="cyburphone.appcache">
 	<head>
 		<title>CyburPhone</title>
 		<link rel="stylesheet" href="<?php echo $layout; ?>" />
@@ -79,7 +79,7 @@ I'm						<button class="button" id="unregister"><img id="unreg_icon" src="images
 					<section id="dial_row3">
 					<button class="dialpad_button" id="seven">7 qrs</button>
 					<button class="dialpad_button" id="eight">8 tuv</button>
-					<button class="dialpad_button" id="nine">9 wxyz</button>
+					<button class="dialpad_button" id="nine">9 wyz</button>
 					</section>
 					<section id="dial_row4">
 					<button class="dialpad_button" id="star">*</button>
@@ -104,7 +104,7 @@ I'm						<button class="button" id="unregister"><img id="unreg_icon" src="images
 
 		<!-- <?php echo "$options $settings"; ?> -->
 
-		<!-- variables to pass vici_phone.js -->
+		<!-- variables to pass cybur_phone.js -->
 		<script>
 
 		// SIP configuration variables
