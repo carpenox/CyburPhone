@@ -74,10 +74,10 @@
 					<section id="dial_row2">
 					<button class="dialpad_button" id="four">4 ghi</button>
 					<button class="dialpad_button" id="five">5 jkl</button>
-					<button class="dialpad_button" id="six">6 mnop</button>
+					<button class="dialpad_button" id="six">6 mno</button>
 					</section>
 					<section id="dial_row3">
-					<button class="dialpad_button" id="seven">7 qrs</button>
+					<button class="dialpad_button" id="seven">7 pqrs</button>
 					<button class="dialpad_button" id="eight">8 tuv</button>
 					<button class="dialpad_button" id="nine">9 wyz</button>
 					</section>
